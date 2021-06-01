@@ -1,0 +1,15 @@
+{
+  "setupFiles": [
+    "raf/polyfill",
+    "<rootDir>/src/tests/setupTests.js"
+  ],
+  "snapshotSerializers": [
+    "enzyme-to-json/serializer"
+  ],
+  "transform": {
+    "\\.js$": "babel-jest"
+  },
+  "moduleNameMapper": {
+    "^.+\\.css$": "css-loader"
+  }
+}
